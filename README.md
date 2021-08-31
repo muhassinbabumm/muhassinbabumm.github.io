@@ -3,4 +3,5 @@
 Resume 
 
 © Material Resume. All rights reserved.
+
 Design - TemplateFlip
