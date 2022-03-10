@@ -274,7 +274,7 @@
     <script src="scripts/aos.js?ver=1.2.1"></script>
     <script src="scripts/main.js?ver=1.2.1"></script>
     <!-- Whatsapp widget -->
-    <script type="text/javascript">
+<!--     <script type="text/javascript">
         (function () {
             var options = {
                 whatsapp: "+919744477337", // WhatsApp number
@@ -287,7 +287,9 @@
             s.onload = function () { WhWidgetSendButton.init(host, proto, options); };        
             var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
         })();
-    </script>
+    </script> -->
+    <script src="https://unpkg.com/@open-wa/whatsapp-button?module" type="module"></script>
+    <whatsapp-button phone="123456789" dialcode="44" text="hey there lets chat!" label="Start Chat"></whatsapp-button>
     <!-- /Whatsapp widget -->
   </body>
 </html>
